@@ -3,10 +3,9 @@ Hi my name is Lucas
 I try a new version of this project
  
  git init
- git clone nom du repository
+ git clone "nom du repository"
  
- git init
- git add 
+ git add -A
  git commit -m "message"
  git push
  
