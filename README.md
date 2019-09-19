@@ -1,6 +1,4 @@
-# hello-world
-Hi my name is Lucas 
-I try a new version of this project
+# how to commit
  
  git init
  git clone "nom du repository"
