@@ -1,5 +1,8 @@
 # how to commit
  
+ git log = etat du commit
+ git revert historique des commits
+ 
  git init
  git clone "nom du repository"
  
