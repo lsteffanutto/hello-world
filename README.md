@@ -1,9 +1,3 @@
-# faire une branche
-git branch -b lenomdelabranche
-quand la branche marche et ajout fonctionnalité
-git push origin master
-(top = faire branch master avec zero problem puis en parallèle une branch de dev principale pour fixer petit bug avant de faire un mega push sur la branche master)
-
 # git cmd
  
  git log = etat du commit
@@ -29,3 +23,13 @@ git push origin master
  git pull sur mon pc 
 gerer les conflits sur atom
 puis les repush sur git hub
+
+# créer une branche
+git checkout -b nomdelabranche -> créer une branche
+git branche -> vérifie sur quelle branche t'es
+git diff -> voir les baux
+
+Puis pour récup sur un autre PC
+git pull
+git checkout nombranche (qui est caché)
+
