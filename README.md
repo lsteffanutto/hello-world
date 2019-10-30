@@ -33,3 +33,6 @@ Puis pour récup sur un autre PC
 git pull
 git checkout nombranche (qui est caché)
 
+# Enlever et mettre tout les printf 
+#define DEBUG_SERVER (0 ou 1)
+if(DEBUG_SERVER) printf("");
