@@ -1,7 +1,8 @@
 # git cmd
  
  git log = etat du commit
- git revert historique des commits
+ git revert = historique des commits
+ git status = infos de ce qui a pas été poussé
  
  # how to commit
  
@@ -32,6 +33,13 @@ git diff -> voir les baux
 Puis pour récup sur un autre PC
 git pull
 git checkout nombranche (qui est caché)
+
+#Merge une branch
+Bien vérifier la branch et faire un push sur la branch
+tu te mets sur la branch master (git checkout master)
+puis tu fais git merge "nomdelabrancheàavaler" (pour envoyer ta branch sur le master)
+PUIS 
+git push pour l'envoyer sur git
 
 # Enlever et mettre tout les printf 
 #define DEBUG_SERVER (0 ou 1)
