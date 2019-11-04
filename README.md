@@ -44,3 +44,5 @@ git push pour l'envoyer sur git
 # Enlever et mettre tout les printf 
 #define DEBUG_SERVER (0 ou 1)
 if(DEBUG_SERVER) printf("");
+
+#En C fuite de mémoire -> Valgrind
