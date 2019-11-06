@@ -44,5 +44,12 @@ git push pour l'envoyer sur git
 # Enlever et mettre tout les printf 
 #define DEBUG_SERVER (0 ou 1)
 if(DEBUG_SERVER) printf("");
+#define DEBUG 1ou0
+if(DEBUG){printf}
 
 #En C fuite de mémoire -> Valgrind
+
+# Le remisage, git stash
+
+Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses sont dans un état instable mais vous voulez changer de branche pour travailler momentanément sur autre chose. Le problème est que vous ne voulez pas valider un travail à moitié fait seulement pour pouvoir y revenir plus tard. La réponse à cette problématique est la commande git stash.
+
