@@ -53,3 +53,13 @@ if(DEBUG){printf}
 
 Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses sont dans un état instable mais vous voulez changer de branche pour travailler momentanément sur autre chose. Le problème est que vous ne voulez pas valider un travail à moitié fait seulement pour pouvoir y revenir plus tard. La réponse à cette problématique est la commande git stash.
 
+# Se connecter en ssh sans rentrer de mot de passe
+cd .ssh
+1) générer une clé ssh: ssh-keygen -t rsa
+2) "Passphrase" -> faire entrer 2 fois pour pas mettre de MDP
+3) id_rsa = clé privée; id_rsa.pub = clé public; copier la clé public dans un fichier "authorized_key" (tout ça dans .ssh)
+4) se co à un autre ordi:
+- avec un ordi de l'école -> ssh "nomdelordi"
+- avec mon pc -> ssh lsteffanutto@ssh.enseirb-matmeca.fr
+
+
