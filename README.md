@@ -62,5 +62,10 @@ cd .ssh
 - avec un ordi de l'école -> ssh "nomdelordi"
 - avec mon pc -> ssh lsteffanutto@ssh.enseirb-matmeca.fr
 
+# ENSEIRB to MY PC
+scp -r lsteffanutto@ssh.enseirb.fr: <cheminDuDossier> <DestinationSurTonOrdi>
+
 # Site de dépannage = Ohshitgit
+
+
 
