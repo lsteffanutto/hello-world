@@ -63,7 +63,7 @@ cd .ssh
 - avec mon pc -> ssh lsteffanutto@ssh.enseirb-matmeca.fr
 
 # ENSEIRB to MY PC
-scp -r lsteffanutto@ssh.enseirb.fr: <cheminDuDossier> <DestinationSurTonOrdi>
+scp -r lsteffanutto at ssh enseirb-matmeca fr: <cheminDuDossier> <DestinationSurTonOrdi>
 
 # Site de dépannage = Ohshitgit
 
