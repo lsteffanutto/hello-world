@@ -67,5 +67,7 @@ scp -r lsteffanutto at ssh enseirb-matmeca fr: <cheminDuDossier> <DestinationSur
 
 # Site de dépannage = Ohshitgit
 
+# python librairie/package etc
+https://www.youtube.com/watch?v=MxvLhp9xJo4&list=WL&index=145&t=474s
 
 
