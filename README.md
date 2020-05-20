@@ -68,7 +68,7 @@ scp -r lsteffanutto at ssh enseirb-matmeca fr: <cheminDuDossier> <DestinationSur
 # Site de dépannage = Ohshitgit
 
 # python librairie/package etc
-Tu cherches ta librairie aca: https://pypi.org/project/nltk/
+Tu cherches ta librairie aca: https://pypi.org/
 t'ouvres le terminal en mode administrateur et tu fais: pip install nom_librairie
 https://www.youtube.com/watch?v=MxvLhp9xJo4&list=WL&index=145&t=474s
 
