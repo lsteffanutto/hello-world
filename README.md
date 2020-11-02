@@ -71,10 +71,17 @@ scp -r lsteffanutto at ssh enseirb-matmeca fr: <cheminDuDossier> <DestinationSur
 Executer code python dans atom: telecharger le package " script "
 Puis quand t'as écris ton code tu fais ctrl+maj+B pour l'éxécuter
 
-Tu cherches ta librairie aca: https://pypi.org/
-t'ouvres le terminal en mode administrateur et tu fais: pip install nom_librairie
+Tu cherches ta LIBRAIRIES aca: https://pypi.org/
+t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install NOM_LIBRAIRIE
 
 tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list=WL&index=145&t=474s
+
+- pip = donne toutes les commandes possibles avec (pip --version)
+- python -m pip install --upgrade
+- pip install nomdupaquet = install ta librairie (pip uninstall nomdupaquet)
+- pip search nomdupaquet = chercher un paquet
+- pip show nomdupaquet = voir ses infos
+- pip freeze = voir tous les paquets que t'as installé
 
 
 
