@@ -68,6 +68,7 @@ scp -r lsteffanutto at ssh enseirb-matmeca fr: <cheminDuDossier> <DestinationSur
 # Site de dépannage = Ohshitgit
 
 # python librairie/package etc
+python -V = voir ta version de Python
 Executer code python dans atom: telecharger le package " script "
 Puis quand t'as écris ton code tu fais ctrl+maj+B pour l'éxécuter
 
