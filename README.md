@@ -84,5 +84,5 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 - pip show nomdupaquet = voir ses infos
 - pip freeze = voir tous les paquets que t'as installé
 
-
-
+# Anaconda
+conda update PACKAGE-NAME
