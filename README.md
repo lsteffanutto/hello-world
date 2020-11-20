@@ -26,11 +26,16 @@ gerer les conflits sur atom
 puis les repush sur git hub
 
 # créer une branche
-git checkout -b nomdelabranche -> créer une branche
-git branche -> vérifie sur quelle branche t'es
-git diff -> voir les baux
+git checkout -b nomdelabranche = créer une branche;
+git branche -> vérifie sur quelle branche t'es;
+git diff -> voir les baux;
 
-Puis pour récup sur un autre PC
+#Push to a Branch
+If your local branch does not exist on the remote, run either of these commands:
+git push -u origin my-branch-name;
+If your local branch already exists on the remote, run this command: git push;
+
+#Puis pour récup sur un autre PC
 git pull
 git checkout nombranche (qui est caché)
 
