@@ -99,3 +99,4 @@ https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/700
 - Créer  un fichier .gitignore pour spécifier les fichiers  qu'on veut pas ajouter un git (exemple: "envs/")
 - Ajouter à un fichier "requirements.txt" toutes les bibliothèques utilisées dans un projet, faire dans le PowerShell Anaconda: "pip list > requirements.txt"
 - DataSciences et Tuto Python bien : https://openclassrooms.com/en/courses/4425111-perfectionnez-vous-en-python/ voir  Chapitre 2
+- Tuto complet apprendre Python bien: https://openclassrooms.com/en/courses/6900856-learn-programming-with-python/6992862-get-the-most-out-of-this-course
