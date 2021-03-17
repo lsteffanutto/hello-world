@@ -3,8 +3,8 @@
  git log = etat du commit
  git revert = historique des commits
  git status = infos de ce qui a pas été poussé
- créer  un fichier .gitignore pour spécifier les fichiers  qu'on veut pas ajouter un git "envs/"
- # how to commit
+
+# how to commit
  
  git init
  git clone "nom du repository"
@@ -90,7 +90,12 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 - pip freeze = voir tous les paquets que t'as installé
 
 # Anaconda
-Voir installation dans fichier .txt
-
-Dans un projet, pour ajouter à un fichier "requirements.txt" toutes les bibliothèques utilisées, faire dans le PowerShell Anaconda
-pip list > requirements.txt
+- Voir installation dans fichier .txt
+- Utiliser "Constant Design pattern" pour coder
+- Utiliser "Décorators Functions" pour pas créer des fonctions similaires et wrapper des fonctions: " @prepare pizza "
+https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009163-create-flexible-functions-with-the-decorator-design-pattern
+- SOLID principle:
+https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009965-discover-good-programming-practices-with-the-solid-principles
+- Créer  un fichier .gitignore pour spécifier les fichiers  qu'on veut pas ajouter un git (exemple: "envs/")
+- Ajouter à un fichier "requirements.txt" toutes les bibliothèques utilisées dans un projet, faire dans le PowerShell Anaconda: "pip list > requirements.txt"
+- DataSciences et Tuto Python bien : https://openclassrooms.com/en/courses/4425111-perfectionnez-vous-en-python/ voir  Chapitre 2
