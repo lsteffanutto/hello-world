@@ -3,7 +3,7 @@
  git log = etat du commit
  git revert = historique des commits
  git status = infos de ce qui a pas été poussé
- 
+ créer  un fichier .gitignore pour spécifier les fichiers  qu'on veut pas ajouter un git "envs/"
  # how to commit
  
  git init
@@ -90,4 +90,7 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 - pip freeze = voir tous les paquets que t'as installé
 
 # Anaconda
-conda update PACKAGE-NAME
+Voir installation dans fichier .txt
+
+Dans un projet, pour ajouter à un fichier "requirements.txt" toutes les bibliothèques utilisées, faire dans le PowerShell Anaconda
+pip list > requirements.txt
