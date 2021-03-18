@@ -91,6 +91,10 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 
 # Anaconda
 - Voir installation dans fichier .txt
+- ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
+
+# Python
+- Utiliser Pycharm avec un terminal powershell
 - Utiliser "Constant Design pattern" pour coder
 - Utiliser "Décorators Functions" pour pas créer des fonctions similaires et wrapper des fonctions: " @prepare pizza "
 https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009163-create-flexible-functions-with-the-decorator-design-pattern
@@ -98,5 +102,9 @@ https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/700
 https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009965-discover-good-programming-practices-with-the-solid-principles
 - Créer  un fichier .gitignore pour spécifier les fichiers  qu'on veut pas ajouter un git (exemple: "envs/")
 - Ajouter à un fichier "requirements.txt" toutes les bibliothèques utilisées dans un projet, faire dans le PowerShell Anaconda: "pip list > requirements.txt"
+- Problemes d'indentation car  tabs se confond avec space, faire ça dans le terminal de Pycharm: python -m tabnanny src/main.py
+- Re-auto indent tout le code PyCharm = Ctrl+Alt+L
+- Ctrl+Alt+S = ouvrir les settings (puis go keymap pour shortcut)
+
 - DataSciences et Tuto Python bien : https://openclassrooms.com/en/courses/4425111-perfectionnez-vous-en-python/ voir  Chapitre 2
 - Tuto complet apprendre Python bien: https://openclassrooms.com/en/courses/6900856-learn-programming-with-python/6992862-get-the-most-out-of-this-course
