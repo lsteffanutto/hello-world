@@ -1,5 +1,5 @@
 # git cmd
- 
+ git --version
  git log = etat du commit
  git revert = historique des commits
  git status = infos de ce qui a pas été poussé
