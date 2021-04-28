@@ -90,9 +90,15 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 - pip freeze = voir tous les paquets que t'as installé
 
 # Anaconda
+- Problème de fenêtre trop grosse de Anaonda Navigator: go to "~/.anaconda/navigator/anaconda-navigator.ini" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
 - Voir installation dans fichier .txt
 - ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
-- gérer différentes versions de Python sur Anaconda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html
+- créer différents environnements: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
+- normalement, à partir de cmd.exe de Anaconda " conda create --prefix ./path_que_tu_veux python=version_de_python (si tu fais ça en spécifiant un chemin faudra tjrs le spécifier et il aura pas de nom)
+- Avec path = " C:\Users\steffanutto\Desktop\Unity_projects\kart-microgame " dans le cas Unity x Python x TensorFlow
+- Montre les environnements crés: " conda info --envs "
+- activer ton environnement: " conda activate C:\Users\steffanutto\Desktop\Unity_projects\kart-microgame "
+- Manage environnements <3: [Tuto environment](https://towardsdatascience.com/manage-your-python-virtual-environment-with-conda-a0d2934d5195#:~:text=You%20can%20always%20use%20conda,use%20by%20using%20conda%20activate%20.&text=conda%20deactivate%20will%20deactivate%20your,which%20is%20the%20base%20environment)
 
 # Python
 - Utiliser Pycharm avec un terminal powershell
