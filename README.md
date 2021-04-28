@@ -77,10 +77,10 @@ python -V = voir ta version de Python
 Executer code python dans atom: telecharger le package " script "
 Puis quand t'as écris ton code tu fais ctrl+maj+B pour l'éxécuter
 
-Tu cherches ta LIBRAIRIES aca: https://pypi.org/
+Tu cherches ta LIBRAIRIES [aca](https://pypi.org/)
 t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install NOM_LIBRAIRIE
 
-tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list=WL&index=145&t=474s
+[tuto avec autres commandes pip](https://www.youtube.com/watch?v=MxvLhp9xJo4&list=WL&index=145&t=474s)
 
 - pip = donne toutes les commandes possibles avec (pip --version)
 - python -m pip install --upgrade
@@ -93,25 +93,23 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 - Problème de fenêtre trop grosse de Anaonda Navigator: go to "~/.anaconda/navigator/anaconda-navigator.ini" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
 - Voir installation dans fichier .txt
 - ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
-- créer différents environnements: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
 - normalement, à partir de cmd.exe de Anaconda " conda create --prefix ./path_que_tu_veux python=version_de_python (si tu fais ça en spécifiant un chemin faudra tjrs le spécifier et il aura pas de nom)
 - Avec path = " C:\Users\steffanutto\Desktop\Unity_projects\kart-microgame " dans le cas Unity x Python x TensorFlow
 - Montre les environnements crés: " conda info --envs "
 - activer ton environnement: " conda activate C:\Users\steffanutto\Desktop\Unity_projects\kart-microgame "
+- [créer différents environnements](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 - Manage environnements <3: [Tuto environment](https://towardsdatascience.com/manage-your-python-virtual-environment-with-conda-a0d2934d5195#:~:text=You%20can%20always%20use%20conda,use%20by%20using%20conda%20activate%20.&text=conda%20deactivate%20will%20deactivate%20your,which%20is%20the%20base%20environment)
 
 # Python
 - Utiliser Pycharm avec un terminal powershell
 - Utiliser "Constant Design pattern" pour coder
-- Utiliser "Décorators Functions" pour pas créer des fonctions similaires et wrapper des fonctions: " @prepare pizza "
-https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009163-create-flexible-functions-with-the-decorator-design-pattern
-- SOLID principle:
-https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009965-discover-good-programming-practices-with-the-solid-principles
+- [Utiliser "Décorators Functions" pour pas créer des fonctions similaires et wrapper des fonctions: " @prepare pizza "](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009163-create-flexible-functions-with-the-decorator-design-pattern)
+- [SOLID principle](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009965-discover-good-programming-practices-with-the-solid-principles)
 - Créer  un fichier .gitignore pour spécifier les fichiers  qu'on veut pas ajouter un git (exemple: "envs/")
 - Ajouter à un fichier "requirements.txt" toutes les bibliothèques utilisées dans un projet, faire dans le PowerShell Anaconda: "pip list > requirements.txt"
 - Problemes d'indentation car  tabs se confond avec space, faire ça dans le terminal de Pycharm: python -m tabnanny src/main.py
 - Re-auto indent tout le code PyCharm = Ctrl+Alt+L
 - Ctrl+Alt+S = ouvrir les settings (puis go keymap pour shortcut)
 
-- DataSciences et Tuto Python bien : https://openclassrooms.com/en/courses/4425111-perfectionnez-vous-en-python/ voir  Chapitre 2
-- Tuto complet apprendre Python bien: https://openclassrooms.com/en/courses/6900856-learn-programming-with-python/6992862-get-the-most-out-of-this-course
+- [DataSciences et Tuto Python bien](https://openclassrooms.com/en/courses/4425111-perfectionnez-vous-en-python/) voir  Chapitre 2
+- [Tuto complet apprendre Python bien](https://openclassrooms.com/en/courses/6900856-learn-programming-with-python/6992862-get-the-most-out-of-this-course)
