@@ -90,7 +90,7 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - pip freeze = voir tous les paquets que t'as installé
 
 # Anaconda
-- Problème de fenêtre trop grosse de Anaonda Navigator: go to "~/.anaconda/navigator/anaconda-navigator.ini" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
+- Problème de fenêtre trop grosse de Anaonda Navigator: go to "C:\Users\steffanutto\AppData\Roaming\.anaconda\navigator\.anaconda\navigator" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
 - Voir installation dans fichier .txt
 - ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
 - normalement, à partir de cmd.exe de Anaconda " conda create --prefix ./path_que_tu_veux python=version_de_python (si tu fais ça en spécifiant un chemin faudra tjrs le spécifier et il aura pas de nom)
