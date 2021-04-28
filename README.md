@@ -92,6 +92,7 @@ tuto avec autres commandes pip: https://www.youtube.com/watch?v=MxvLhp9xJo4&list
 # Anaconda
 - Voir installation dans fichier .txt
 - ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
+- gérer différentes versions de Python sur Anaconda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html
 
 # Python
 - Utiliser Pycharm avec un terminal powershell
