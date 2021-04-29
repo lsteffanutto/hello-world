@@ -88,7 +88,8 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - pip search nomdupaquet = chercher un paquet
 - pip show nomdupaquet = voir ses infos
 - pip freeze = voir tous les paquets que t'as installé
-- installer librairies quand t'as des problèmes de connexion: pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
+- installer librairies quand t'as des problèmes de connexion avec le proxy: pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
+- SINON, [problème de proxy à l'agence](https://stackoverflow.com/questions/56628194/sslerror-installing-with-pip)
 
 # Anaconda
 - Problème de fenêtre trop grosse de Anaonda Navigator: go to "C:\Users\steffanutto\AppData\Roaming\.anaconda\navigator\.anaconda\navigator" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
