@@ -147,6 +147,7 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - SINON, [problème de proxy à l'agence](https://stackoverflow.com/questions/56628194/sslerror-installing-with-pip)
 
 # Anaconda
+- QUAND ON UTILISE ANACONDA ON UTILISE LA COMMANDE " CONDA " et pas pip
 - Problème de fenêtre trop grosse de Anaonda Navigator: go to "C:\Users\steffanutto\AppData\Roaming\.anaconda\navigator\.anaconda\navigator" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
 - Voir installation dans fichier .txt
 - ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
