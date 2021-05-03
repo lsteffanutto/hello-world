@@ -1,8 +1,63 @@
+# Quoi ?
+- Git = gestionnaire de version ; GitHub = service en ligne qui héberge les dépôts Git. On parle alors de dépôt distant
+- Dépôt local = enregistre les versions de ton code pour pouvoir y accéder si besoin (les versions y sont stockées au fur et à mesure)
+=> Copie du dépôt distant, permettant d'ajouter des modifications.
+- Dépôt distant = stocke les différentes versions du code pour avoir un historique délocalisé hébergé sur Internet
+- branche = copie du code principal à un instant T
+- Git Bash = Utiliser Git en ligne de commande
+- Working Directory = dossier du projet sur l'ordinateur "Expert_Git"
+- Stage/index = zone intermédiaire entre working directory et repository = tous les fichiers modifiés qu'on veut voir apparaître dans la prochaine version de code
+- Repository = Quand on crée une nouvelle version d'un projet c'est dans cette zone qu'elle est stockée.
+- Repository GitHub = dépôt distant
+
+Stage/index:
+=> Quand on créer un fichier on doit l'indexer: "git add index.html" => il passe alors dans l'index/stage
+=> Quand on a modifié ce fichier il faut refaire un git add pour prendre en compte les modifications
+=> Soit git add nomdufichier, soit git add -A (tous les fichiers)
+
+Repository:
+=> git commit créer une nouvele version du projet, et passe les fichiers qui sont dans le stage, dans le Repository: " git commit -m "description du commit" "
+=> nouvelle version du projet sur branch master
+
+
+
+- Configurer Git la première fois:
+git config --global user.name "Lucas Steffanutto" (--golbal configure pour tous les projet)
+git config --global user.email lucasste33@gmail.com
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global core.editor vim
+git config --global merge.tool vimdiff
+
+- Initialisation du projet:
+créer un repo sur GitHub
+méthode 1:
+créer un dossier local dans lequel se situera le projet
+se déplacer dans ce dossier avec la console puis "git init"
+méthode 2:
+cloner le projet dans le dossier local où l'on souhaite le mettre
+
+- Relier le projet au dépôt distant:
+git remote add origin https://github.com/lsteffanutto/GitFlow.git (Si pas cloné le dépôt existant et qu'on veut le connecter à notre dépôt sur un serveur distant)
+git branch -M main (= git --move la branch sur le master/main)
+git push -u origin main (-u = all)
+git push <REMOTENAME> <BRANCHNAME>
+
+!!!Depuis Oactobre 2020 on appelle la branch pincipale "main"!!!
+
+- Accéder à un dépôt distant et le copier en local
+git init
+git remote add _nomcourt_ https://github.com/lsteffanutto/GitFlow.git (pour que le dépôt pointe sur le dépôt distant)
+git branch -M main
+git pull _nomcourt_ main (récupérer et fusionner les modifications d'un remote repository sur la branch actuelle (fusionne fetch+merge ?) )
+
 # git cmd
  git --version
  git log = etat du commit
  git revert = historique des commits
- git status = infos de ce qui a pas été poussé
+ git status = informations sur les fichiers modifiés et sur l'état de leur commit et de ce qui a pas été poussé
+
 
 # how to commit
  
