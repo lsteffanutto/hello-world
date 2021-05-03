@@ -145,6 +145,7 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - pip freeze = voir tous les paquets que t'as installé
 - installer librairies quand t'as des problèmes de connexion avec le proxy: pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
 - SINON, [problème de proxy à l'agence](https://stackoverflow.com/questions/56628194/sslerror-installing-with-pip)
+- Problèmes de time out: pip --default-timeout=1000 install pandas
 
 # Anaconda
 - QUAND ON UTILISE ANACONDA ON UTILISE LA COMMANDE " CONDA " et pas pip
