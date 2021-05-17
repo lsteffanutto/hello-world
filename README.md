@@ -22,6 +22,7 @@ Repository:
 
 
 - Configurer Git la première fois:
+git config --list --show-origin (voir les bails)
 git config --global user.name "Lucas Steffanutto" (--golbal configure pour tous les projet)
 git config --global user.email lucasste33@gmail.com
 git config --global color.diff auto
@@ -105,6 +106,19 @@ tu te mets sur la branch master (git checkout master)
 puis tu fais git merge "nomdelabrancheàavaler" (pour envoyer ta branch sur le master)
 PUIS 
 git push pour l'envoyer sur git
+
+#.gitignore => permet de mettre dans fichier .txt les paths correspondant aux fichier qu'on ne veut pas ajouter
+- enlever un truc déjà dans ton commit: " git rm -r --cached PATH_du_truc_a_enlever " (cela ne supprime pas le fichier)
+- sinon t'enleve tout, tu mets à jour le git ignore et tu recommit "git rm -r --cached ."; "git add ." ; git commit -m "gitignore fix";
+!!! attention sur gitbash "path1/path2", si tu copie les chemins windows c'est "path1\path2" donc GitBash "chemin introuvable"
+# Graph des branchs
+git log --oneline --graph
+
+# Voir la racine d'un projet
+git rev-parse --show-toplevel
+
+# Voir le repo
+tig
 
 # Enlever et mettre tout les printf 
 #define DEBUG_SERVER (0 ou 1)
