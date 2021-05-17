@@ -114,6 +114,8 @@ git push pour l'envoyer sur git
 # Graph des branchs
 git log --oneline --graph
 
+[méga schéma](https://www.sebastien-gandossi.fr/blog/difference-entre-git-reset-et-git-rm-cached)
+
 # Voir la racine d'un projet
 git rev-parse --show-toplevel
 
