@@ -51,7 +51,12 @@ git init
 git remote add _nomcourt_ https://github.com/lsteffanutto/GitFlow.git (pour que le dépôt pointe sur le dépôt distant)
 git branch -M main
 git pull _nomcourt_ main (récupérer et fusionner les modifications d'un remote repository sur la branch actuelle (fusionne fetch+merge ?) )
-
+=> premier commit avec vim: 
+- Type i . The editor opens in 'normal' mode, where everything you type is interpreted as a command and where you can do stuff like saving the file and exiting. ...
+- Write your commit message on the first line.
+- Hit esc . This will return you to 'normal' mode.
+- Type :wq to leave
+- 
 # git cmd
  git --version
  git log = etat du commit
