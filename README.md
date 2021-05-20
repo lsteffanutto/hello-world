@@ -1,4 +1,6 @@
 # Quoi ?
+ALIAS BASH: " alias nom_de_votre_alias="commande de votre alias" " ; ALIAS WIN: " doskey macroName=macroDefinition "
+
 - Git = gestionnaire de version ; GitHub = service en ligne qui héberge les dépôts Git. On parle alors de dépôt distant
 - Dépôt local = enregistre les versions de ton code pour pouvoir y accéder si besoin (les versions y sont stockées au fur et à mesure)
 => Copie du dépôt distant, permettant d'ajouter des modifications.
