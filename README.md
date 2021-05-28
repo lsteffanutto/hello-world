@@ -5,7 +5,7 @@ ALIAS WIN: " doskey macroName=macroDefinition "
 - créer un fichier .txt qu'on nomme macros.doskey et le stocker où on veut
 - ajouter les raccourcis souhaités sur chaque ligne, exemples: "ls=dir $* $T", "ci=conda info --envs $T" etc
 - " reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"C:\PATH_JUSQUA\macros.doskey.txt"" /f "  (ajoute le fichier au registre "opération effectué")
-- " reg query "HKCU\Software\Microsoft\Command Processor" /v Autorun " doit retourner le bon chemin (" Autorun    REG_SZ    doskey /macrofile="C:\PATH_JUSQUA\macros.doskey.txt") et c'est bon
+- " reg query "HKCU\Software\Microsoft\Command Processor" /v Autorun " doit retourner le bon chemin (" Autorun    REG_SZ    doskey /macrofile="C:\PATH_JUSQUA\macros.doskey.txt"). Fermer la console, la reouvrir et c'est bon
 
 
 - Git = gestionnaire de version ; GitHub = service en ligne qui héberge les dépôts Git. On parle alors de dépôt distant
