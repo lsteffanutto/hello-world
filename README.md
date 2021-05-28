@@ -1,5 +1,12 @@
 # Quoi ?
-ALIAS BASH: " alias nom_de_votre_alias="commande de votre alias" " ; ALIAS WIN: " doskey macroName=macroDefinition "
+ALIAS BASH: " alias nom_de_votre_alias="commande de votre alias" ; les ajouter dans le bashrc
+ALIAS WIN: " doskey macroName=macroDefinition " 
+=> Permanent (que la console aura quand elle demarre):
+- créer un fichier .txt qu'on nomme macros.doskey et le stocker où on veut
+- ajouter les raccourcis souhaités sur chaque ligne, exemples: "ls=dir $* $T", "ci=conda info --envs $T" etc
+- " reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"C:\PATH_JUSQUA\macros.doskey.txt"" /f "  (ajoute le fichier au registre "opération effectué")
+- " reg query "HKCU\Software\Microsoft\Command Processor" /v Autorun " doit retourner le bon chemin (" Autorun    REG_SZ    doskey /macrofile="C:\PATH_JUSQUA\macros.doskey.txt") et c'est bon
+
 
 - Git = gestionnaire de version ; GitHub = service en ligne qui héberge les dépôts Git. On parle alors de dépôt distant
 - Dépôt local = enregistre les versions de ton code pour pouvoir y accéder si besoin (les versions y sont stockées au fur et à mesure)
