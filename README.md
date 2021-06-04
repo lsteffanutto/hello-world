@@ -29,6 +29,20 @@ Repository:
 => nouvelle version du projet sur branch master
 
 
+- git pull à partir d'une branch march pas car il y a des conflits: 
+=> git stash (sauvegarde ce que t'as dans une petite boîte)
+=> git drop (tu le balance)
+=> git pull 
+(=> git stash pop remet ce que t'avais fait par dessus ? !!! problèmes de merge après)
+
+- SINON !!! OUI !!!
+=> git fetch + git checkout
+
+- Linux double click selectionne tout dans le terminal puis molette copie direct sur la line de commande 
+
+- git checkout recupere dans ton working directory, ce qu'il y a dans ta database, directory .git
+
+- git reset = degage ce qu'il y a dans le git add .
 
 - Configurer Git la première fois:
 git config --list --show-origin (voir les bails)
