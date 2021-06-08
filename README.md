@@ -141,6 +141,9 @@ git log --oneline --graph
 
 # Voir la racine d'un projet
 git rev-parse --show-toplevel
+ 
+#annuler un commit (puis refaire add, commit push)
+git reset --soft HEAD~1
 
 # Voir le repo
 tig
