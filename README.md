@@ -40,7 +40,11 @@ Repository:
 
 - Linux double click selectionne tout dans le terminal puis molette copie direct sur la line de commande 
 
-- git checkout recupere dans ton working directory, ce qu'il y a dans ta database, directory .git
+- git checkout recupere dans ton working directory, ce qu'il y a dans ta database, directory .git, remet même état que le dernier commit
+
+- git diff nom du fichier
+
+- git commit --amend, prend le dernier commit et le rajoute 
 
 - git reset = degage ce qu'il y a dans le git add .
 
