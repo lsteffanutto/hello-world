@@ -203,10 +203,9 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - Problème de fenêtre trop grosse de Anaonda Navigator: go to "C:\Users\steffanutto\AppData\Roaming\.anaconda\navigator\.anaconda\navigator" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
 - Voir installation dans fichier .txt
 - ouvrir les environnement avec PycharmPro, gratuit pour les étudiants
-- normalement, à partir de cmd.exe de Anaconda " conda create --prefix ./path_que_tu_veux python=version_de_python (si tu fais ça en spécifiant un chemin faudra tjrs le spécifier et il aura pas de nom)
-- Avec path = " C:\Users\steffanutto\Desktop\Unity_projects\kart-microgame " dans le cas Unity x Python x TensorFlow
+- normalement, à partir de cmd.exe de Anaconda " conda create --name my_env python=3.7  "
 - Montre les environnements crés: " conda info --envs "
-- activer ton environnement: " conda activate C:\Users\steffanutto\Desktop\Unity_projects\kart-microgame "
+- activer ton environnement: " conda activate my_env "
 - [créer différents environnements](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 - Manage environnements <3: [Tuto environment](https://towardsdatascience.com/manage-your-python-virtual-environment-with-conda-a0d2934d5195#:~:text=You%20can%20always%20use%20conda,use%20by%20using%20conda%20activate%20.&text=conda%20deactivate%20will%20deactivate%20your,which%20is%20the%20base%20environment)
 
