@@ -57,6 +57,7 @@ git config --global color.status auto
 git config --global color.branch auto
 git config --global core.editor vim
 git config --global merge.tool vimdiff
+[PROXY](https://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server-fails-with-request-timed-out): git config --global http.proxy http://LucasAdmin:lucasadmin@proxy-1.ims.bordeaux:3128
 
 - Initialisation du projet:
 créer un repo sur GitHub
