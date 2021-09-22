@@ -199,6 +199,7 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - Problèmes de time out: pip --default-timeout=1000 install pandas
 
 # Anaconda
+- conda env remove -n ENV_NAME
 - QUAND ON UTILISE ANACONDA ON UTILISE LA COMMANDE " CONDA " et pas pip
 - Problème de fenêtre trop grosse de Anaonda Navigator: go to "C:\Users\steffanutto\AppData\Roaming\.anaconda\navigator\.anaconda\navigator" ; update => enable_high_dpi_scaling = False ; restart anaconda-navigator
 - Voir installation dans fichier .txt
