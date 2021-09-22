@@ -210,6 +210,7 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 - Manage environnements <3: [Tuto environment](https://towardsdatascience.com/manage-your-python-virtual-environment-with-conda-a0d2934d5195#:~:text=You%20can%20always%20use%20conda,use%20by%20using%20conda%20activate%20.&text=conda%20deactivate%20will%20deactivate%20your,which%20is%20the%20base%20environment)
 
 # Python
+- Python not found: download [Python Release](https://www.python.org/downloads/release/python-377/) Python 3.7.7  and exec Windows x86-64 executable installer )
 - Utiliser Pycharm avec un terminal powershell
 - Utiliser "Constant Design pattern" pour coder
 - [Utiliser "Décorators Functions" pour pas créer des fonctions similaires et wrapper des fonctions: " @prepare pizza "](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code/7009163-create-flexible-functions-with-the-decorator-design-pattern)
