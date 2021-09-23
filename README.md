@@ -1,7 +1,7 @@
 # Quoi ?
-ALIAS BASH: " alias nom_de_votre_alias="commande de votre alias" ; les ajouter dans le bashrc
-ALIAS WIN: " doskey macroName=macroDefinition " 
-=> Permanent, depuis une console window (que la console aura quand elle demarre):
+- ALIAS BASH: " alias nom_de_votre_alias="commande de votre alias" ; les ajouter dans le bashrc
+- ALIAS WIN: " doskey macroName=macroDefinition " 
+- Permanent, depuis une console window (que la console aura quand elle demarre):
 - créer un fichier .txt qu'on nomme macros.doskey et le stocker où on veut
 - ajouter les raccourcis souhaités sur chaque ligne, exemples: "ls=dir $* $T", "ci=conda info --envs $T" etc
 - " reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"C:\PATH_JUSQUA\macros.doskey.txt"" /f "  (ajoute le fichier au registre "opération effectué")
