@@ -225,3 +225,39 @@ t'ouvres le terminal (SUR WINDOW) en mode administrateur et tu fais: pip install
 
 - [DataSciences et Tuto Python bien](https://openclassrooms.com/en/courses/4425111-perfectionnez-vous-en-python/) voir  Chapitre 2
 - [Tuto complet apprendre Python bien](https://openclassrooms.com/en/courses/6900856-learn-programming-with-python/6992862-get-the-most-out-of-this-course)
+                            
+# Point Culture GPU
+Graphic Driver: Le pilote (en anglais, driver) de la carte graphique, est avant tout un logiciel qui s'intercale entre le système d'exploitation et le matériel. On peut le comparer à un interprète traduisant automatiquement le langage de Windows dans celui de la carte d'affichage.
+
+ Config du PC du Labo (192.168.6.113):
+
+Processeur: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, 4200 MHz, 4 cœur(s), 8 processeur(s) logique(s)
+
+RAM: 16Go
+
+GPU: GeForce GTX 1060 6GB (GeForce 10 Series)
+
+=> Le GPU et le processeur matchent bien ensemble :
+
+Core i7-7700K & GeForce GTX 1060 | Bottleneck calculator | PC Builds 
+
+ML-Agent release 17 fonctionne avec PyTorch 1.7.1+cu110
+
+SETUP:
+MAJ du driver: NVIDIA - Téléchargements de pilotes 
+
+Driver installé et mis à jour dans: C:\NVIDIA\DisplayDriver\466.47\Win10-DCH_64\International
+
+Cuda toolkit installé dans: C:\Users\STEFFA~1\AppData\Local\Temp\CUDA
+
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3
+
+“cuda_11.3.1_465.89_win10”
+
+CUDA DNN installé: “cudnn-11.3-windows-x64-v8.2.0.53” dont les contenus des dossier “libs”, “include” et “bin” sont a mettre dans les dossiers “libs”, “include” et “bin” du Cuda toolkit
+
+Checker la carte grapique: ” nvidia-smi “ dans anaconda prompt
+
+Checker si PyTorch utilise bien CUDA et CUDA DNN: executer les scripts gpu_info.py et collect_env.py
+
+=> ajouter les variables d’environnements: https://github.com/miyamotok0105/unity-ml-agents/blob/master/docs/Installation-Windows.md
