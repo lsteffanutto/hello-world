@@ -54,6 +54,12 @@ pip cache purge
 pip install --proxy=http://192.168.251.1:3128 torch -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+error OpenCV: The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support
+``` 
+pip uninstall opencv-python 
+pip install opencv-python
+```
+
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
 cd .ssh
