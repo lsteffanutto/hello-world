@@ -59,8 +59,12 @@ se déplacer dans ce dossier avec la console puis "git init"
 cloner le projet dans le dossier local où l'on souhaite le mettre
 
 - Relier le projet au dépôt distant:
+    - faire les git config ci-dessus si première fois
+    - git init
     - git remote add origin https://github.com/lsteffanutto/GitFlow.git (Si pas cloné le dépôt existant et qu'on veut le connecter à notre dépôt sur un serveur distant)
     - git branch -M main (= git --move la branch sur le master/main)
+    - git add .
+    - git commit -m "ouais"
     - git push -u origin main (-u = all)
     - git push <REMOTENAME> <BRANCHNAME>
 
