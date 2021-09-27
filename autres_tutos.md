@@ -60,7 +60,7 @@ pip uninstall opencv-python
 pip install opencv-python
 ```
 
-Dans un projet our importer les fonctions d'autres dossier, il faut ajouter le path python, sinon erreur du type
+Dans un projet our importer les fonctions d'autres dossier, il faut ajouter le path python du projet, sinon erreur du type
 """    from models.resnet import rf_lw50, rf_lw101, rf_lw152
 ModuleNotFoundError: No module named 'models' """
 ``` 
