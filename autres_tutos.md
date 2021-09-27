@@ -60,6 +60,13 @@ pip uninstall opencv-python
 pip install opencv-python
 ```
 
+Dans un projet our importer les fonctions d'autres dossier, il faut ajouter le path python, sinon erreur du type
+"""    from models.resnet import rf_lw50, rf_lw101, rf_lw152
+ModuleNotFoundError: No module named 'models' """
+``` 
+sys.path.append('C:/Users/Lucas/Desktop/test/light-weight-refinenet')
+```
+
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
 cd .ssh
