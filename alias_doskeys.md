@@ -28,6 +28,8 @@ o=start .\
 c=code .
 cudainfo=nvcc --version
 cudainfo2=nvidia-smi
+export = set
+datagen = cd C:\Users\Lucas\Desktop\Louiza\Generateur & runas.exe /savecred /user:Lucas "C:\Program Files\MATLAB\R2021a\bin\matlab.exe" 
 
 alias   = doskey $*
 cat     = type $*
