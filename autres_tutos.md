@@ -70,11 +70,11 @@ sys.path.append('C:/Users/Lucas/Desktop/test/light-weight-refinenet')
 La commande " env " permet de voir les variables d'environnement
 
 Path to a train directory for ML: if error "    fp = builtins.open(filename, "rb")
-**OSError: [Errno 22] Invalid argument**: 'C:/Users/Lucas/Desktop/test/light-weight-refinenet/examples/imgs/nyu_training_dataset/train_part/train_labels/000116.png**\r**' ""
+**OSError: [Errno 22] Invalid argument**: 'C:/Users/Lucas/Desktop/test/light-weight-refinenet/examples/imgs/nyu_training_dataset/train_part/train_labels/000116.png **\r** ' ""
 In a script of the project, find a type of the first line and replace it with the second
 ```
-lambda x: x.decode("utf-8").strip("\n").split("\t"), datalist # original, developed on unix
-                lambda x: x.decode("utf-8").strip("\r\n").split("\t"), datalist # actual, developed on windows ("error")
+lambda x: x.decode("utf-8").strip("\n").split("\t"), datalist   # ===> original, developed on unix
+lambda x: x.decode("utf-8").strip("\r\n").split("\t"), datalist # ===> actual, developed on windows ("error")
 ```
 
 # SSH
