@@ -67,6 +67,8 @@ ModuleNotFoundError: No module named 'models' """
 sys.path.append('C:/Users/Lucas/Desktop/test/light-weight-refinenet')
 ```
 
+La commande " env " permet de voir les variables d'environnement
+
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
 cd .ssh
