@@ -83,7 +83,19 @@ git pull _nomcourt_ main (récupérer et fusionner les modifications d'un remote
 - 
 
 ## git token
-[ici](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
+- Générer le token et l'ajouter à windows: [ici](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
+- Essayer de push 
+``` 
+git push -u origin main
+``` 
+- Si ça marche pas, remplacer l'origin et refaire le push précédent et c'est bon
+``` 
+git remote show origin
+git remote remove origin
+git remote show origin
+git remote add origin https://personal_token@github.com/git_username/repo_a_relier.git
+git remote show origin
+``` 
     
 ## git cmd
 git --version
