@@ -81,6 +81,10 @@ git pull _nomcourt_ main (récupérer et fusionner les modifications d'un remote
 - Hit esc . This will return you to 'normal' mode.
 - Type :wq to leave
 - 
+
+## git token
+[ici](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
+    
 ## git cmd
 git --version
 git log = etat du commit
