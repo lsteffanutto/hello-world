@@ -97,6 +97,8 @@ git remote add origin https://personal_token@github.com/git_username/repo_a_reli
 git remote show origin
 ``` 
     
+git a project whene yet a .git in a subfolder => delete .git in the subfolder 
+    
 ## git cmd
 git --version
 git log = etat du commit
