@@ -76,6 +76,11 @@ In a script of the project, find a type of the first line and replace it with th
 lambda x: x.decode("utf-8").strip("\n").split("\t"), datalist   # ===> original, developed on unix
 lambda x: x.decode("utf-8").strip("\r\n").split("\t"), datalist # ===> actual, developed on windows ("error")
 ```
+In Jupyter Notebook to import function form an other file, install the following package and write the following import where you want
+```
+pip install ipynb
+from ipynb.fs.full.main import *
+```
 
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
