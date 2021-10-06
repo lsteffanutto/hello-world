@@ -31,6 +31,7 @@ cudainfo2=nvidia-smi
 export = set
 datagen = cd C:\Users\Lucas\Desktop\Louiza\Generateur & runas.exe /savecred /user:Lucas "C:\Program Files\MATLAB\R2021a\bin\matlab.exe" 
 chmodall = takeown /F . /R
+info = magick identify -verbose $*
 
 alias   = doskey $*
 cat     = type $*
@@ -48,3 +49,5 @@ pwd     = cd
 rm      = del $*
 rmr     = deltree $*
 sudo    = runas /user:administrator $*
+
+$* allows to use args after a command
