@@ -82,6 +82,8 @@ pip install ipynb
 from ipynb.fs.full.main import *
 ```
 
+Quand imshow() OpenCV => pas le bon path de l'image 
+
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
 cd .ssh
