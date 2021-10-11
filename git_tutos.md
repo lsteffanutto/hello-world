@@ -88,13 +88,14 @@ git pull _nomcourt_ main (récupérer et fusionner les modifications d'un remote
 ``` 
 git push -u origin main
 ``` 
-- Si ça marche pas, remplacer l'origin et refaire le push précédent et c'est bon
+- Si ça marche pas ET DEJA GENERER TOKEN FAIRE ça (avec le token généré), remplacer l'origin et refaire le push précédent et c'est bon
 ``` 
 git remote show origin
-git remote remove origin
+git remote remove origin (ICI DIRECT)
 git remote show origin
-git remote add origin https://personal_token@github.com/git_username/repo_a_relier.git
+git remote add origin https://personal_token@github.com/git_username/repo_a_relier.git (ICI DIRECT)
 git remote show origin
+git push -u origin main
 ``` 
     
 git a project whene yet a .git in a subfolder => delete .git in the subfolder 
