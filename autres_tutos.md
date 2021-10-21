@@ -82,6 +82,9 @@ pip install ipynb
 from ipynb.fs.full.main import *
 ```
 
+To get all the PyTorch/CUDA/cuDNN/GPU infos : ``` python -m torch.utils.collect_env ```
+
+
 Quand imshow() OpenCV => pas le bon path de l'image 
 
 # SSH
