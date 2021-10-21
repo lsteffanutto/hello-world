@@ -4,7 +4,7 @@ Graphic Driver: Le pilote (en anglais, driver) de la carte graphique, est avant 
 # Setup CUDA DRIVER GPU PyTorch
 - Exécuter les 2 script python pour verifier la config GPU, Driver et CUDA
 “ python check_cuda_torch_device.py “ et “ python collect_env “
-- nvidia-smi et nvcc --version pour d’autres infos
+- ``` nvidia-smi ``` et ``` nvcc --version ``` ; ``` python -m torch.utils.collect_env ``` pour d’autres infos
 - [tuto](https://stackoverflow.com/questions/60987997/why-torch-cuda-is-available-returns-false-even-after-installing-pytorch-with) pour voir si GPU et Driver supportent la version de CUDA 
 
 ## Config:
