@@ -87,11 +87,12 @@ To get all the PyTorch/CUDA/cuDNN/GPU infos : ``` python -m torch.utils.collect_
 
 Quand imshow() OpenCV => pas le bon path de l'image 
 
-torch to opencv:
+torch to numpy (opencv):
 ```
 output.cpu().data.numpy().argmax()
 output.cpu().detach().numpy()
 output.cpu().detach().squeeze().numpy()
+reverse = torch.from_numpy(tensor)
 ```
 
 # SSH
