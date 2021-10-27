@@ -94,7 +94,10 @@ output.cpu().detach().numpy()
 output.cpu().detach().squeeze().numpy()
 reverse = torch.from_numpy(tensor)
 ```
-
+tqdm() permet d'afficher une "loading" bar durant computing
+```
+for i, sample in enumerate(tqdm(val_loader)):
+```
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
 cd .ssh
