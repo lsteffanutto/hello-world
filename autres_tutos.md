@@ -98,6 +98,12 @@ tqdm() permet d'afficher une "loading" bar durant computing
 ```
 for i, sample in enumerate(tqdm(val_loader)):
 ```
+
+# Variables d'environnement et Java
+- check JAVA_HOME : " echo %JAVA_HOME%
+- check version de java et openJDK : " java --version " et " javac --version "
+
+
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
 cd .ssh
