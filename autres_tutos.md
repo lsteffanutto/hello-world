@@ -103,6 +103,9 @@ for i, sample in enumerate(tqdm(val_loader)):
 - check JAVA_HOME : " echo %JAVA_HOME%
 - check version de java et openJDK : " java --version " et " javac --version "
 
+# Variables d'environnement et Java
+- 401 is authentication error : user:password
+- 403 is authorization error : certificates
 
 # SSH
 ## Se connecter en ssh sans rentrer de mot de passe
