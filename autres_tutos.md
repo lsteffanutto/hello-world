@@ -119,4 +119,7 @@ cd .ssh
 
 ## ENSEIRB to MY PC
 scp -r lsteffanutto at ssh enseirb-matmeca fr: <cheminDuDossier> <DestinationSurTonOrdi>
+    
+## Virus vst
+https://veryleaks.cz/threads/vstcrack-trojan-nettoyage-pc-infecte-par-un-vst-de-vstcrack-com.191218/
 
