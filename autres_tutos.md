@@ -102,6 +102,8 @@ for i, sample in enumerate(tqdm(val_loader)):
 # Variables d'environnement et Java
 - check JAVA_HOME : " echo %JAVA_HOME%
 - check version de java et openJDK : " java --version " et " javac --version "
+- Si JAVA_HOME ne pointe pas vers le jdk, modifier cette variables d'env : C:\Program Files\Java\jdk-17.0.2
+- Reboot le pc pour que les variables d'environnements se mettent à jour
 
 # Variables d'environnement et Java
 - 401 is authentication error : user:password
