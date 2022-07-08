@@ -98,6 +98,8 @@ tqdm() permet d'afficher une "loading" bar durant computing
 ```
 for i, sample in enumerate(tqdm(val_loader)):
 ```
+# Python
+Si pas possible d'importer un module
 
 # Variables d'environnement et Java
 - check JAVA_HOME : " echo %JAVA_HOME%
