@@ -105,7 +105,7 @@ import sys
 sys.path.append('C:/Users/lsteffanutto-admin/Desktop/chemin/racine_du_projet')
 print(sys.path)
 ``` 
-Normalement pas besoin d'ajouter des __init__ vides dans chaque packages
+Normalement pas besoin d'ajouter des __init__ vides dans chaque packages, et on peut importer classiquement : " from utils.functions import * "
 
 # Variables d'environnement et Java
 - check JAVA_HOME : " echo %JAVA_HOME%
