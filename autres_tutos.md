@@ -99,7 +99,13 @@ tqdm() permet d'afficher une "loading" bar durant computing
 for i, sample in enumerate(tqdm(val_loader)):
 ```
 # Python
-Si pas possible d'importer un module
+Si pas possible d'importer un module, ajouter ça en début de script:
+``` 
+import sys
+sys.path.append('C:/Users/lsteffanutto-admin/Desktop/chemin/racine_du_projet')
+print(sys.path)
+``` 
+Normalement pas besoin d'ajouter des __init__ vides dans chaque packages
 
 # Variables d'environnement et Java
 - check JAVA_HOME : " echo %JAVA_HOME%
