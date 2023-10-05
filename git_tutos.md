@@ -178,3 +178,33 @@ if(DEBUG){printf}
 # Le remisage, git stash
 
 Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses sont dans un état instable mais vous voulez changer de branche pour travailler momentanément sur autre chose. Le problème est que vous ne voulez pas valider un travail à moitié fait seulement pour pouvoir y revenir plus tard. La réponse à cette problématique est la commande git stash.
+
+# Untrack big file of your repository
+- En local, on peut se mettre à l'emplacement du .git de notre projet et lancer la commande " du -sh .git " : disk usage of the git repo.
+- En local, pour voir le détail en utilisant Git lui même, en lançant la commande : "git count-objects -vH"
+- En local, pour voir la taille de nos propre repository git ici : [settings/repositories](https://github.com/settings/repositories)
+- En local avec git, pour voir les 10 fichiers les plus volumineux du repo, utiliser la commande :
+  ``` 
+  git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | sed -n 's/^blob //p' | sort --numeric-sort --key=2 | tail -n 20 | cut -c 1-12,41-
+  ```
+  
+- 1. Penser à mettre à jour le .gitignore pour ne pas tracker les fichier volumineux, en ajoutant par exemple les lignes :
+  ```
+  /data/online/*.csv
+  /data/res/
+  ```
+- 2. Pour dire à Git de untrack certains fichiers ou repositories, exécuter la commande
+  ```
+  git rm --cached FILE_OR_DIRECTORY_NAME
+  ```
+  **Note** : Pour faire la liste de tous les fichiers commençant par le même path ou prefix, on peut utiliser la commande :
+  ```
+  git ls-files | grep '^prefix'
+  ```
+  Pour untrack la liste de tous ces fichiers, utiliser la commande :
+  ```
+  git ls-files | grep '^prefix' | xargs git rm --cached
+  ```
+- 3. On peut vérifier la manipulation avec git status puis ensuite refaire git add . et git commit
+
+
