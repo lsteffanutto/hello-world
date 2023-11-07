@@ -196,6 +196,10 @@ Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses
   cut -c 1-12,41- |
   $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
 ```
+- En local, les fichiers trackés par git classé par ordre décroissant de taille en MB:
+```
+git ls-tree -r HEAD --long | awk '{print int($4/1024)"\t"$5}' | sort -k 1 -nr | awk '{print int($1/1024)" MB\t"$2}'
+```
   
 - 1. Penser à **mettre à jour le .gitignore** pour ne pas tracker les fichier volumineux, en ajoutant par exemple les lignes :
   ```
