@@ -210,14 +210,13 @@ Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses
   git rm --cached -r *.html
   ```
 
-  **Note**:
+  **Note**: Avec le .gitignore, pour untrack tous les fichiers avec un certains format, à l'exceptions de certains que l'on veut push
   ```
   # Ignore all HTML files
-*.html
-
-# But do not ignore these specific HTML files
-!important-file.html
-!folder/subfolder/another-important-file.html
+  *.html
+  # But do not ignore these specific HTML files
+  !important-file.html
+  !folder/subfolder/another-important-file.html
  ```
 
 - 3. On peut vérifier la manipulation avec git status puis ensuite refaire git add . et git commit et git push
