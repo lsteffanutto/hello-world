@@ -183,34 +183,34 @@ Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses
 - En local, on peut se mettre à l'emplacement du .git de notre projet et lancer la commande " **du -sh .git** " : pour voir l'usage disque du repository.
 - En local, pour voir le détail en utilisant Git lui même, en lançant la commande : " **git count-objects -vH** "
 - En local, pour voir la taille de nos propre repository git ici : [settings/repositories](https://github.com/settings/repositories)
-- En local avec git, pour voir les 10 fichiers les plus volumineux du repo, utiliser la commande :
+- En local avec git, pour voir les **10 fichiers les plus volumineux du repo**, utiliser la commande :
   ``` 
   git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | sed -n 's/^blob //p' | sort --numeric-sort --key=2 | tail -n 20 | cut -c 1-12,41-
   ```
   
-- 1. Penser à mettre à jour le .gitignore pour ne pas tracker les fichier volumineux, en ajoutant par exemple les lignes :
+- 1. Penser à **mettre à jour le .gitignore** pour ne pas tracker les fichier volumineux, en ajoutant par exemple les lignes :
   ```
   /data/online/*.csv
   /data/res/
   ```
-- 2. Pour dire à Git de untrack certains fichiers ou repositories, exécuter la commande
+- 2. Pour dire à Git de **untrack certains fichiers ou repositories**, exécuter la commande
   ```
   git rm --cached FILE_OR_DIRECTORY_NAME
   ```
-  **Note** : Pour faire la liste de tous les fichiers commençant par le même path ou prefix, on peut utiliser la commande :
+  **Note** : Pour faire la **liste de tous les fichiers commençant par le même path ou prefix**, on peut utiliser la commande :
   ```
   git ls-files | grep '^prefix'
   ```
-  Pour untrack la liste de tous ces fichiers, utiliser la commande :
+  Pour **untrack la liste de tous ces fichiers**, utiliser la commande :
   ```
   git ls-files | grep '^prefix' | xargs git rm --cached
   ```
-  Pour untrack tous les fichiers avec un certains format (ici ".html" par exemple), recurssivement dans tous les dossiers du repo, utiliser la commande :
+  Pour **untrack tous les fichiers avec un certains format** (ici ".html" par exemple), recurssivement dans tous les dossiers du repo, utiliser la commande :
   ```
   git rm --cached -r *.html
   ```
 
-  **Note**: Avec le .gitignore, pour untrack tous les fichiers avec un certains format, à l'exceptions de certains que l'on veut push
+  **Note**: Avec le **.gitignore, pour untrack tous les fichiers avec un certains format, à l'exceptions de certains** que l'on veut push
   ```
   # Ignore all HTML files
   *.html
