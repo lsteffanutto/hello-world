@@ -180,8 +180,8 @@ if(DEBUG){printf}
 Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses sont dans un état instable mais vous voulez changer de branche pour travailler momentanément sur autre chose. Le problème est que vous ne voulez pas valider un travail à moitié fait seulement pour pouvoir y revenir plus tard. La réponse à cette problématique est la commande git stash.
 
 # Untrack big file of your repository
-- En local, on peut se mettre à l'emplacement du .git de notre projet et lancer la commande " du -sh .git " : disk usage of the git repo.
-- En local, pour voir le détail en utilisant Git lui même, en lançant la commande : "git count-objects -vH"
+- En local, on peut se mettre à l'emplacement du .git de notre projet et lancer la commande " **du -sh .git** " : pour voir l'usage disque du repository.
+- En local, pour voir le détail en utilisant Git lui même, en lançant la commande : " **git count-objects -vH** "
 - En local, pour voir la taille de nos propre repository git ici : [settings/repositories](https://github.com/settings/repositories)
 - En local avec git, pour voir les 10 fichiers les plus volumineux du repo, utiliser la commande :
   ``` 
@@ -205,6 +205,21 @@ Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses
   ```
   git ls-files | grep '^prefix' | xargs git rm --cached
   ```
-- 3. On peut vérifier la manipulation avec git status puis ensuite refaire git add . et git commit
+  Pour untrack tous les fichiers avec un certains format (ici ".html" par exemple), recurssivement dans tous les dossiers du repo, utiliser la commande :
+  ```
+  git rm --cached -r *.html
+  ```
+
+  **Note**:
+  ```
+  # Ignore all HTML files
+*.html
+
+# But do not ignore these specific HTML files
+!important-file.html
+!folder/subfolder/another-important-file.html
+ ```
+
+- 3. On peut vérifier la manipulation avec git status puis ensuite refaire git add . et git commit et git push
 
 
