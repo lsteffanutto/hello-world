@@ -187,6 +187,15 @@ Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses
   ``` 
   git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | sed -n 's/^blob //p' | sort --numeric-sort --key=2 | tail -n 20 | cut -c 1-12,41-
   ```
+- En local, pour voir la **taille des fichiers les plus lourd de mon repo .git**, utiliser la commande :
+  ```
+  git rev-list --objects --all |
+  git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+  sed -n 's/^blob //p' |
+  sort --numeric-sort --key=2 |
+  cut -c 1-12,41- |
+  $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
+```
   
 - 1. Penser à **mettre à jour le .gitignore** pour ne pas tracker les fichier volumineux, en ajoutant par exemple les lignes :
   ```
