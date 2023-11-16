@@ -132,6 +132,7 @@ puis les repush sur git hub
 git checkout -b nomdelabranche = créer une branche;
 git branche -> vérifie sur quelle branche t'es;
 git diff -> voir les baux;
+git branch -m ancien_nom nouveau_nom
 
 #Push to a Branch
 If your local branch does not exist on the remote, run either of these commands:
@@ -179,6 +180,11 @@ if(DEBUG){printf}
 
 Souvent, lorsque vous avez travaillé sur une partie de votre projet, les choses sont dans un état instable mais vous voulez changer de branche pour travailler momentanément sur autre chose. Le problème est que vous ne voulez pas valider un travail à moitié fait seulement pour pouvoir y revenir plus tard. La réponse à cette problématique est la commande git stash.
 
+# git push force
+Pour pousser votre branche locale (maintenant main) sur la branche distante main, en écrasant les différences :
+```
+git push origin main -f
+```
 # Untrack big file of your repository
 - En local, on peut se mettre à l'emplacement du .git de notre projet et lancer la commande " **du -sh .git** " : pour voir l'usage disque du repository.
 - En local, pour voir le détail en utilisant Git lui même, en lançant la commande : " **git count-objects -vH** "
